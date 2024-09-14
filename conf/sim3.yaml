@@ -1,0 +1,14 @@
+---
+Repeating long task:
+  type: periodic
+  duration: 100
+  interarrival-time: 50
+  first-arrival: 0
+  num-repetitions: 25
+
+
+# Summary statistics
+
+# Total num events:  25
+# Total wait time:   15000.0
+# Average wait time: 600.0

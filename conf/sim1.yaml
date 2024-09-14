@@ -1,0 +1,27 @@
+---
+Process 1:
+  type: singleton
+  duration: 4
+  arrival: 0
+
+Process 2:
+  type: singleton
+  duration: 7
+  arrival: 3
+
+Process 3:
+  type: singleton
+  duration: 3
+  arrival: 5
+
+Process 4:
+  type: singleton
+  duration: 6
+  arrival: 10
+
+
+# Summary statistics
+
+# Total num events:  4
+# Total wait time:   11.0
+# Average wait time: 2.75

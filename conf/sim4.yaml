@@ -1,0 +1,28 @@
+---
+Random requests 1:
+  type: stochastic
+  mean-duration: 25
+  mean-interarrival-time: 100
+  first-arrival: 0
+  end: 5000
+
+Random requests 2:
+  type: stochastic
+  mean-duration: 50
+  mean-interarrival-time: 200
+  first-arrival: 0
+  end: 5000
+
+Random requests 3:
+  type: stochastic
+  mean-duration: 100
+  mean-interarrival-time: 400
+  first-arrival: 0
+  end: 5000
+
+
+# Summary statistics
+
+# Total num events:  76
+# Total wait time:   4159.0
+# Average wait time: 54.72

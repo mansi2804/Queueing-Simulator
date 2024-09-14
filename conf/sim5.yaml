@@ -1,0 +1,26 @@
+---
+Computation:
+  type: singleton
+  duration: 50
+  arrival: 10
+
+Timer interrupt:
+  type: periodic
+  duration: 10
+  interarrival-time: 25
+  first-arrival: 0
+  num-repetitions: 3
+
+I/O request:
+  type: stochastic
+  mean-duration: 10
+  mean-interarrival-time: 25
+  first-arrival: 5
+  end: 150
+
+
+# Summary statistics
+
+# Total num events:  8
+# Total wait time:   199.0
+# Average wait time: 24.875
