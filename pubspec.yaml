@@ -1,0 +1,13 @@
+name: queueing_simulator
+description: Queueing system simulator
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  args: ^2.5.0
+  yaml: ^3.1.2
+
+dev_dependencies:
+  test: ^1.25.5
