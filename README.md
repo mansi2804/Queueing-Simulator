@@ -243,21 +243,7 @@ If you include the `-v` flag in the invocation (e.g., `dart run bin/main.dart -c
 
 You can also debug your code in VSCode by going to the "Run and Debug" tab, selecting one of the configurations from the dropdown (with names like "Simulation 1", "Simulation 2", etc.), and then clicking the green play button (after setting any desired breakpoints). We set up launch configurations for you so that each dropdown option invokes the simulator with the correspondly numbered configuration file.
 
-## 6. Grading
 
-This machine problem is worth 40 points, broken down as follows:
-
-- **Project report (5 points)**: Edit the `REPORT.md` file to include all requisite information. **You must do this or your submission will not be evaluated!**
-
-- **Correctness (30 points)**
-
-  - Each of the five simulation configuration files in `conf` is worth 6 points. Your implementation should correctly simulate the queueing system as described in prior sections, and should output statistics that are consistent with the expected results (though not necessarily identical, when stochastic processes are involved).
-
-    We provide reference statistical summaries as comments in the configuration files themselves, which you can use as a sanity check.
-
-    If your results are not consistent with expected results, but you include verbose output that helps us diagnose the issue, you may receive partial credit.
-
-    Hardcoded results will not merit any points.
 
 - **Code quality (10 points)**: Your code should be well-structured, modular, and easy to read. You should use appropriate data structures to solve the problem, and you should make an effort to keep your code clean and concise. You should also include comments in your code to explain your design decisions and any tricky parts of your implementation.
 
