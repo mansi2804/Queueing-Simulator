@@ -243,7 +243,3 @@ If you include the `-v` flag in the invocation (e.g., `dart run bin/main.dart -c
 
 You can also debug your code in VSCode by going to the "Run and Debug" tab, selecting one of the configurations from the dropdown (with names like "Simulation 1", "Simulation 2", etc.), and then clicking the green play button (after setting any desired breakpoints). We set up launch configurations for you so that each dropdown option invokes the simulator with the correspondly numbered configuration file.
 
-
-
-- **Code quality (10 points)**: Your code should be well-structured, modular, and easy to read. You should use appropriate data structures to solve the problem, and you should make an effort to keep your code clean and concise. You should also include comments in your code to explain your design decisions and any tricky parts of your implementation.
-
